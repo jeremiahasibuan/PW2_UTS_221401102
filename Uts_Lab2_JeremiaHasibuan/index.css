@@ -1,0 +1,101 @@
+*,html,body{
+   margin:0;
+   padding:0;
+}
+
+body{
+   background-color:white;
+   color:black
+   
+}
+
+#maincarousel{
+   display:block;
+}
+#carousel2{
+   height:80%;
+   width:60%;
+   margin:auto;
+}
+
+#imagelogo{
+   height:50px;
+}
+
+#buttondarkmode{
+   justify-content: center;
+   display:flex;
+   align-items: center;
+   margin-top:25px;
+}
+
+.dark{
+   background-color: black;
+   color:white;
+}
+
+.love{
+   background-color: palevioletred;
+   color:red;
+}
+
+.sad{
+   background-color: blue;
+   color :rgb(45, 45, 137);
+}
+#plovemode{
+   color :red;
+   display: none;
+   text-align:center;
+   font-size: 100px;
+   margin:200px;
+   font-weight: bold;
+}
+
+#psadmode{
+   color :rgb(45, 45, 137);
+   display: none;
+   text-align:center;
+   font-size: 100px;
+   margin:200px;
+   font-weight: bold;
+}
+
+#pdarkmode{
+   color :white;
+   display: none;
+   text-align:center;
+   font-size: 100px;
+   margin:200px;
+   font-weight: bold;
+}
+
+#plightmode{
+   color :black;
+   display: none;
+   text-align:center;
+   font-size: 100px;
+   margin:200px;
+   font-weight: bold;
+}
+
+nav a:hover{
+   background-color:greenyellow;
+   cursor:pointer;
+   transition: background-color 0.5s ease-in-out;
+   transform: translateX(10px) 0.5s ease-in-out;
+   font-weight: bold ;
+}
+
+#card123 {
+   width: 100%;
+   margin-top:50px;
+   align-items: center;
+   justify-content: center;
+   text-align :center;
+}
+
+#maincard1 {
+   text-align: center;
+}
+

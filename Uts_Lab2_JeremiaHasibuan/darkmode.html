@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title > UTS Pemweb Lab2</title>
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Your custom CSS link -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="Assets/Images/Gs.png" id="imagelogo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="darkmode.html">DarkMode & LightMode</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lovemode.html">LoveMode & SadMode</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id ="carousel2">
+          <div class="carousel-item active">
+              <img src="Assets/Images/dark.png" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/Images/light.png" class="d-block w-100" alt="Image 2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel -->
+
+    <!-- Ini Dark Mode -->
+    <div>
+        <p id="pdarkmode"> This is Dark Mode </p>
+        <p id="plightmode"> This is Light Mode </p>
+        <p id ="plovemode"> This is Love Mode</p>
+        <p id ="psadmode"> This is Sad Mode</p>
+    </div>
+    <!-- Ini Dark Mode -->
+    <!-- Button Click -->
+    <div id ="buttondarkmode">
+        <!-- <button class ="btn btn-dark" onclick="darkMode()" id="darkmode"> Dark Mode </button> -->
+        <a onclick ="darkMode()" class ="btn btn-dark" id = "darkmode">MODE DARK</a>
+    </div>
+
+    <!-- Button Click -->
+  <!-- Grid / Card Section -->
+ <!-- Grid / Card Section -->
+<!-- Grid / Card Section -->
+<section id="card123">
+    <div class="container text-center" id="maincard1">
+        <div class="row justify-content-center"> <!-- Menambah kelas justify-content-center -->
+            <div class="col-md-4">
+                <div class="card" id="card1">
+                    <img src="Assets/Images/dark.png" class="card-img-top" alt="Card Image 1"><img
+                        src="Assets/Images/light.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark Mode And Light Mode</h5>
+                        <p class="card-text">Fitur Ini Bisa Berubah Menjadi Dark Mode dan Light Mode</p>
+                        <a href="#" class="btn btn-primary">Coba!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" id="card2">
+                    <img src="Assets/Images/love.png" class="card-img-top" alt="Card Image 2"><img
+                        src="Assets/Images/sad.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Love Mode And Sad Mode</h5>
+                        <p class="card-text">Fitur Ini Bisa Berubah Menjadi Love Mode dan Sad Mode</p>
+                        <a href="lovemode.html" class="btn btn-primary">Coba</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Bootstrap JavaScript and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Your custom JavaScript file -->
+  <script src="darkmode.js"></script>
+</body>
+</html>
